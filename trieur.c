@@ -4,6 +4,7 @@
 int main(){
     int tab[5];
 
+    printf("Entrez cinq nombre : ");
     for(int i=0; i<5; i++){
         scanf("%d", &tab[i]);
     }
