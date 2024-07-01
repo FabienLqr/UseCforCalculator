@@ -17,3 +17,5 @@ search.c: cherche si un nombre donne est dans le tableau.
 triSearch.c: prend 5 valeurs qui sont mis dans un tableau, le tri, prend un nombre a chercher et cherche si il est dans le tableau trier.
 
 otherTriSearch.c: demande la taille du tableau, puis demande de remplir le tableau, puis demande un nombre a chercher dans ce dis tableau.
+
+printMultiple.c: Demande un tableau, demande un multiple et affiche tout les multiple contenue dans le tableau.
