@@ -21,3 +21,5 @@ otherTriSearch.c: demande la taille du tableau, puis demande de remplir le table
 printMultiple.c: Demande un tableau, demande un multiple et affiche tout les multiple contenue dans le tableau.
 
 pendu.c: Un jeu du pendu fait en C.
+
+convertisseur.c: demande quel type de convertion vous souhaitez faire et vous permer de la faire.
