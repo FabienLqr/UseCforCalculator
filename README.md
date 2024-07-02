@@ -23,3 +23,5 @@ printMultiple.c: Demande un tableau, demande un multiple et affiche tout les mul
 pendu.c: Un jeu du pendu fait en C.
 
 convertisseur.c: demande quel type de convertion vous souhaitez faire et vous permer de la faire.
+
+facto.c: fait la factoreille d'un entier rentre.
