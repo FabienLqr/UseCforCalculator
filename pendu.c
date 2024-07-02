@@ -9,6 +9,16 @@ char* random(char* mots[], int taille) {
     return mots[index];
 }
 
+char* poteau[] = {
+    "_____\n|   |\n|\n|\n|\n|\n",
+    "_____\n|   |\n|   O\n|\n|\n|\n",
+    "_____\n|   |\n|   O\n|   |\n|\n|\n",
+    "_____\n|   |\n|   O\n|  /|\n|\n|\n",
+    "_____\n|   |\n|   O\n|  /|\\\n|\n|\n",
+    "_____\n|   |\n|   O\n|  /|\\\n|  /\n|\n",
+    "_____\n|   |\n|   O\n|  /|\\\n|  / \\\n|\n"
+};
+
 int main (){
     char* words[11] = {"voiture", "banane", "bois", "guitare", "musique", "programmation", "Metallica", "France", "pendu", "informatique", "langage"};
     char* word = random(words, 11);
@@ -39,6 +49,7 @@ int main (){
         }
         printf("Mot : %s\n", devine);
         printf("Nombre d'erreurs : %d\n", wrong);
+        printf("%s", poteau[wrong]);
     }
 
     if(wrong>7){
